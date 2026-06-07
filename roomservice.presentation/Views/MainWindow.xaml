@@ -1,0 +1,94 @@
+﻿<Window x:Class="roomservice.presentation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:roomservice.presentation"
+        mc:Ignorable="d"
+        Title="Room Service" Width="1920" Height="1080">
+
+    <Grid Background="#ccc">
+
+        <!-- Dividindo em três colunas para centralizar com responsividade -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="1280" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Dividindo em três linhas para centralizar com responsividade -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="870"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Dentro do Grid.Column (1) e Grid.Row (1) eu vou montar o layout da tela -->
+        <Grid Grid.Column="1" Grid.Row="1">
+            
+            <!-- Criei duas linhas, umas pra navbar, e outra que tem o tamanho total disponivel -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- NAVBAR -->
+            <Grid Grid.Row="0" Grid.Column="0">
+                <Border 
+                  Padding="20"
+                  Background="#0d0c0b">
+
+                    <TextBlock 
+                      Text="User"
+                      FontSize="24"
+                      Foreground="White"
+                      TextWrapping="Wrap"
+                      FontFamily="DejaVu Serif"/>   
+                </Border>
+            </Grid>
+
+            <!-- TELA -->
+            <Grid Grid.Row="1"  Grid.Column="0">
+
+                <!-- Duas colunas sendo definidas para fazer uma sidebar e uma para o conteudo -->
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="300"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- SIDEBAR -->
+                <Grid Grid.Column="0" Grid.Row="0">
+                    <Border 
+                        Padding="20"
+                        Background="#0d0c0b">
+
+                        <TextBlock 
+                            Text="Vestuário"
+                            FontSize="24"
+                            Foreground="White"
+                            TextWrapping="Wrap"
+                            FontFamily="DejaVu Serif"/>
+                    </Border>
+                </Grid>
+                
+                <!-- ITENS -->
+                <Grid Grid.Column="1" Grid.Row="0">
+                    <Border 
+                        Padding="20" 
+                        Background="#0d0c0b">
+
+                        <TextBlock 
+                            Text="Itens"
+                            FontSize="24"
+                            Foreground="White"
+                            TextWrapping="Wrap"
+                            FontFamily="DejaVu Serif"/> 
+                    </Border>
+                </Grid>
+                
+            </Grid>
+            
+        </Grid>
+        
+    </Grid>
+</Window>
