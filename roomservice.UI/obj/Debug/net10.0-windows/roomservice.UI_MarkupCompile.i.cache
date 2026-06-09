@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 
-4-1636942845
+82107308556
 
 3335809054
 206-1840375534
-Resource\Common\Box\common-box.xaml;Resource\Common\Letter\common-cursor.xaml;Resource\Common\Letter\common-font.xaml;Resource\Common\Padding\common-padding.xaml;
+CommonResource\Common\Background\common-background.xaml;CommonResource\Common\Box\common-box.xaml;CommonResource\Common\CornerRadius\common-cornerradius.xaml;CommonResource\Common\Display\common-display.xaml;CommonResource\Common\Letter\common-cursor.xaml;CommonResource\Common\Letter\common-font.xaml;CommonResource\Common\Padding\common-padding.xaml;CommonResource\Custom\PCR\common-padding-cornerradius.xaml;
 
 False
 

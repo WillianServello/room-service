@@ -7,10 +7,17 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
 
-                <ResourceDictionary Source="/roomservice.UI;component/Resource/Common/Letter/common-font.xaml"/>
-                <ResourceDictionary Source="/roomservice.UI;component/Resource/Common/Letter/common-cursor.xaml"/>
-                <ResourceDictionary Source="/roomservice.UI;component/Resource/Common/Box/common-box.xaml"/>
-                <ResourceDictionary Source="/roomservice.UI;component/Resource/Common/Padding/common-padding.xaml"/>
+                <ResourceDictionary Source="/roomservice.UI;component/CommonResource/Common/Letter/common-font.xaml"/>
+                <ResourceDictionary Source="/roomservice.UI;component/CommonResource/Common/Letter/common-cursor.xaml"/>
+                <ResourceDictionary Source="/roomservice.UI;component/CommonResource/Common/Background/common-background.xaml"/>
+                <ResourceDictionary Source="/roomservice.UI;component/CommonResource/Common/Padding/common-padding.xaml"/>
+                <ResourceDictionary Source="/roomservice.UI;component/CommonResource/Common/CornerRadius/common-cornerradius.xaml"/>
+                <ResourceDictionary Source="/roomservice.UI;component/CommonResource/Common/Display/common-display.xaml"/>
+
+                <ResourceDictionary Source="/roomservice.UI;component/CommonResource/Common/Box/common-box.xaml"/>
+                
+                
+                <ResourceDictionary Source="/roomservice.UI;component/CommonResource/Custom/PCR/common-padding-cornerradius.xaml"/>
 
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
