@@ -1,7 +1,7 @@
 <Solution>
   <Folder Name="/1 - Presentation/">
     <Project Path="roomservice.presentation/roomservice.presentation.csproj" />
-    <Project Path="roomservice.UI/roomservice.themes.csproj" />
+    <Project Path="roomservice.UI/roomservice.UI.csproj" />
   </Folder>
   <Folder Name="/2 - Application/">
     <Project Path="roomservice.application/roomservice.application.csproj" />

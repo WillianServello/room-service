@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WO3ibJ2S740=",
+  "dgSpecHash": "IS8aIkgs0pE=",
   "success": true,
   "projectFilePath": "C:\\Users\\WillianRafael\\source\\repos\\roomservice\\roomservice.presentation\\roomservice.presentation.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\WillianRafael\\.nuget\\packages\\materialdesigncolors\\5.3.2\\materialdesigncolors.5.3.2.nupkg.sha512",
+    "C:\\Users\\WillianRafael\\.nuget\\packages\\materialdesignthemes\\5.3.2\\materialdesignthemes.5.3.2.nupkg.sha512",
+    "C:\\Users\\WillianRafael\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512"
+  ],
   "logs": []
 }

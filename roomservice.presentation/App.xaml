@@ -4,6 +4,15 @@
              xmlns:local="clr-namespace:roomservice.presentation"
              StartupUri="Views/MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+
+                <ResourceDictionary Source="/roomservice.UI;component/Resource/Common/Letter/common-font.xaml"/>
+                <ResourceDictionary Source="/roomservice.UI;component/Resource/Common/Letter/common-cursor.xaml"/>
+                <ResourceDictionary Source="/roomservice.UI;component/Resource/Common/Box/common-box.xaml"/>
+                <ResourceDictionary Source="/roomservice.UI;component/Resource/Common/Padding/common-padding.xaml"/>
+
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

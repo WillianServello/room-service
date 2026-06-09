@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WillianRafael\\source\\repos\\roomservice\\roomservice.UI\\roomservice.themes.csproj",
-      "projectName": "roomservice.themes",
-      "projectPath": "C:\\Users\\WillianRafael\\source\\repos\\roomservice\\roomservice.UI\\roomservice.themes.csproj",
+      "projectUniqueName": "C:\\Users\\WillianRafael\\source\\repos\\roomservice\\roomservice.UI\\roomservice.UI.csproj",
+      "projectName": "roomservice.UI",
+      "projectPath": "C:\\Users\\WillianRafael\\source\\repos\\roomservice\\roomservice.UI\\roomservice.UI.csproj",
       "packagesPath": "C:\\Users\\WillianRafael\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\WillianRafael\\source\\repos\\roomservice\\roomservice.UI\\obj\\",
       "projectStyle": "PackageReference",
